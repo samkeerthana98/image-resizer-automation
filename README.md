@@ -6,7 +6,6 @@ AWS Image Resizer Automation is a serverless image processing application built 
 
 The application automatically resizes images uploaded by users to an input S3 bucket and stores the processed images in a separate output S3 bucket. This eliminates manual image processing and demonstrates event-driven automation using AWS services.
 
----
 
 ## Architecture
 
@@ -21,7 +20,6 @@ The application automatically resizes images uploaded by users to an input S3 bu
 
 User Upload → Input S3 Bucket → Lambda Trigger → Image Processing (Python + Pillow) → Output S3 Bucket
 
----
 
 ## AWS Services Used
 
@@ -37,7 +35,6 @@ User Upload → Input S3 Bucket → Lambda Trigger → Image Processing (Python 
 * Processes images automatically upon upload.
 * Eliminates the need to manage servers.
 
----
 
 ## Technologies Used
 
@@ -51,14 +48,6 @@ User Upload → Input S3 Bucket → Lambda Trigger → Image Processing (Python 
 * Scalable and cost-efficient solution.
 * No manual image processing required.
 
----
-
-
-
-├── lambda_function.py
-
-
-└── README.md
 
 ## How It Works
 
